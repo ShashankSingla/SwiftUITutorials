@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Home: View {
     @State var selected: Int?
-    var list = ["Plane Animation", "Redacted Sample", "MatchedGeometry Animation"]
+    var list = ["Plane Animation", "Redacted Sample", "MatchedGeometry Animation", "CustomSlider"]
     var body: some View {
         NavigationView {
             ZStack {
@@ -20,6 +20,9 @@ struct Home: View {
                     EmptyView()
                 })
                 NavigationLink(destination: MatchedGeometryAnimationView(), tag: 3, selection: $selected, label: {
+                    EmptyView()
+                })
+                NavigationLink(destination: CustomSlider(), tag: 4, selection: $selected, label: {
                     EmptyView()
                 })
                 List {

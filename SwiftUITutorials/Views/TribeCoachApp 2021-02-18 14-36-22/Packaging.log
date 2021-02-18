@@ -1,0 +1,584 @@
+2021-02-18 09:06:18 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fbd42f10270; archive(resolved)='<IDEArchive: 0x7fbd42fcf110>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fbd42f10270; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fbd46c9b030; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd476b5b50; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd37fd22a0; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd42fc6720; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd555ad6d0; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd35147ed0; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd34fb2e10; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd3b20ce10; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fbd59b2b820; teamID='89QD58GUUL', teamName='Justin Marston', teamType='Individual', username='appledev@tribe.fitness', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fbd3b21fe90; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='(null)'>
+	<IDEDistributionContext: 0x7fbd35f0ab80; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='(null)'>
+	<IDEDistributionContext: 0x7fbd459a2670; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='(null)'>
+	<IDEDistributionContext: 0x7fbd3819d9f0; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fbd51ccd750>', team='(null)'>
+	<IDEDistributionContext: 0x7fbd354699c0; archive = '<IDEArchive: 0x7fbd42fcf110>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fbd42f10270>
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionCopyItemStep
+2021-02-18 09:06:18 +0000  Running /usr/bin/ditto '-V' '/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app'
+2021-02-18 09:06:18 +0000  >>> Copying /Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app 
+2021-02-18 09:06:18 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  12965 bytes for ./_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./TribeCoachApp.momd/TribeCoachApp.mom ... 
+2021-02-18 09:06:18 +0000  513 bytes for ./TribeCoachApp.momd/TribeCoachApp.mom
+copying file ./TribeCoachApp.momd/VersionInfo.plist ... 
+2021-02-18 09:06:18 +0000  163 bytes for ./TribeCoachApp.momd/VersionInfo.plist
+copying file ./TribeCoachApp.momd/TribeCoachApp.omo ... 
+2021-02-18 09:06:18 +0000  704 bytes for ./TribeCoachApp.momd/TribeCoachApp.omo
+2021-02-18 09:06:18 +0000  copying file ./click3.wav ... 
+2021-02-18 09:06:18 +0000  15240 bytes for ./click3.wav
+copying file ./click1.wav ... 
+2021-02-18 09:06:18 +0000  16596 bytes for ./click1.wav
+copying file ./click4.wav ... 
+2021-02-18 09:06:18 +0000  6488 bytes for ./click4.wav
+copying file ./TribeCoachApp ... 
+2021-02-18 09:06:18 +0000  27523232 bytes for ./TribeCoachApp
+copying file ./switch1.wav ... 
+2021-02-18 09:06:18 +0000  55556 bytes for ./switch1.wav
+2021-02-18 09:06:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-02-18 09:06:18 +0000  2015 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-02-18 09:06:18 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-02-18 09:06:18 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Avenir.ttc ... 
+2021-02-18 09:06:18 +0000  1639536 bytes for ./Avenir.ttc
+2021-02-18 09:06:18 +0000  copying file ./Assets.car ... 
+2021-02-18 09:06:18 +0000  484560 bytes for ./Assets.car
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/MarqueeLabel.framework/MarqueeLabel ... 
+2021-02-18 09:06:18 +0000  828944 bytes for ./Frameworks/MarqueeLabel.framework/MarqueeLabel
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/MarqueeLabel.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  744 bytes for ./Frameworks/MarqueeLabel.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/Reachability.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/Reachability.framework/Reachability ... 
+2021-02-18 09:06:18 +0000  479600 bytes for ./Frameworks/Reachability.framework/Reachability
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/Reachability.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  744 bytes for ./Frameworks/Reachability.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/AFDateHelper.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/AFDateHelper.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/AFDateHelper.framework/AFDateHelper ... 
+2021-02-18 09:06:18 +0000  546800 bytes for ./Frameworks/AFDateHelper.framework/AFDateHelper
+copying file ./Frameworks/AFDateHelper.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  744 bytes for ./Frameworks/AFDateHelper.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/KeychainAccess.framework/KeychainAccess ... 
+2021-02-18 09:06:18 +0000  1267424 bytes for ./Frameworks/KeychainAccess.framework/KeychainAccess
+copying file ./Frameworks/KeychainAccess.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  748 bytes for ./Frameworks/KeychainAccess.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift ... 
+2021-02-18 09:06:18 +0000  1495872 bytes for ./Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift
+copying file ./Frameworks/NotificationBannerSwift.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  769 bytes for ./Frameworks/NotificationBannerSwift.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SDWebImageSwiftUI.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/SDWebImageSwiftUI.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI ... 
+2021-02-18 09:06:18 +0000  1701872 bytes for ./Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI
+copying file ./Frameworks/SDWebImageSwiftUI.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  804 bytes for ./Frameworks/SDWebImageSwiftUI.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2021-02-18 09:06:18 +0000  2617488 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+copying file ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  766 bytes for ./Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit ... 
+2021-02-18 09:06:18 +0000  1309840 bytes for ./Frameworks/SnapKit.framework/SnapKit
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SnapKit.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  735 bytes for ./Frameworks/SnapKit.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:18 +0000  1798 bytes for ./Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+2021-02-18 09:06:18 +0000  copying file ./Frameworks/SDWebImage.framework/SDWebImage ... 
+2021-02-18 09:06:18 +0000  3528800 bytes for ./Frameworks/SDWebImage.framework/SDWebImage
+copying file ./Frameworks/SDWebImage.framework/Info.plist ... 
+2021-02-18 09:06:18 +0000  741 bytes for ./Frameworks/SDWebImage.framework/Info.plist
+2021-02-18 09:06:18 +0000  copying file ./embedded.mobileprovision ... 
+2021-02-18 09:06:18 +0000  8483 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2021-02-18 09:06:18 +0000  1952 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2021-02-18 09:06:18 +0000  8 bytes for ./PkgInfo
+2021-02-18 09:06:18 +0000  /usr/bin/ditto exited with 0
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd3bd4b900; bundleID='org.cocoapods.AFDateHelper', path='<DVTFilePath:0x7fbd42f315c0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5c3290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cb0690>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.AFDateHelper', executablePath='<DVTFilePath:0x7fbd42f31120:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd37fd4ed0; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x7fbd42ff8d50:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd2ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45ca4350>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x7fbd31c85c20:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd3b21e190; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x7fbd42f2ee40:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b244cc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cd2050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x7fbd42f2e390:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd3b4c07f0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fbd42f3a070:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd356a64b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cef340>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fbd3a5f62a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd37fcb740; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fbd42ffa0a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd388e5c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cd6420>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fbd3b4cf450:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd7d2e17b0; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x7fbd31f84420:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd58f760c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd4b946980; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd612712e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x7fbd38848650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd7eca0a80; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fbd352f1170:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd60417e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a51cfd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fbd3b237e00:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd438269c0; bundleID='org.cocoapods.SDWebImageSwiftUI', path='<DVTFilePath:0x7fbd352fc650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd53c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cd6420>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImageSwiftUI', executablePath='<DVTFilePath:0x7fbd446c11d0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbd37fd8490; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fbd555ebfc0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd49d90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a5b7280>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fbd3bd50830:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/TribeCoachApp' '-r' '-o' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/TribeCoachApp'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionSymbolsStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionAppThinningStep
+2021-02-18 09:06:18 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionArchThinningStep
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "AFDateHelper" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "IQKeyboardManagerSwift" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "KeychainAccess" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "MarqueeLabel" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "NotificationBannerSwift" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "Reachability" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "SDWebImage" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "SDWebImageSwiftUI" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "SnapKit" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Running /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/TribeCoachApp' '-verify_arch' 'arm64e'
+2021-02-18 09:06:18 +0000  /Applications/Xcode 12.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-02-18 09:06:18 +0000  Skipping architecture thinning for item "TribeCoachApp" because arch "arm64e" wasn't found
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionODRStep
+2021-02-18 09:06:18 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd3bd4b900; bundleID='org.cocoapods.AFDateHelper', path='<DVTFilePath:0x7fbd42f315c0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5c3290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415fbbe0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.AFDateHelper', executablePath='<DVTFilePath:0x7fbd42f31120:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd37fd4ed0; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x7fbd42ff8d50:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd2ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd41511e20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x7fbd31c85c20:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd3b21e190; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x7fbd42f2ee40:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b244cc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415d0da0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x7fbd42f2e390:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd3b4c07f0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fbd42f3a070:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd356a64b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415e8480>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fbd3a5f62a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd37fcb740; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fbd42ffa0a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd388e5c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415d7dc0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fbd3b4cf450:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd7d2e17b0; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x7fbd31f84420:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd58f760c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415c8070>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x7fbd38848650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd7eca0a80; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fbd352f1170:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd60417e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415d4da0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fbd3b237e00:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd438269c0; bundleID='org.cocoapods.SDWebImageSwiftUI', path='<DVTFilePath:0x7fbd352fc650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd53c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd4155cc70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImageSwiftUI', executablePath='<DVTFilePath:0x7fbd446c11d0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbd37fd8490; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fbd555ebfc0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd49d90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b221ce0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415c3850>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fbd3bd50830:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2021-02-18 09:06:18 +0000  Running /usr/bin/xattr '-crs' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app'
+2021-02-18 09:06:19 +0000  /usr/bin/xattr exited with 0
+2021-02-18 09:06:19 +0000  Processing step: IDEDistributionCodesignStep
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3bd4b900; bundleID='org.cocoapods.AFDateHelper', path='<DVTFilePath:0x7fbd42f315c0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5c3290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd353c9b30; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd451f5da0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.AFDateHelper', executablePath='<DVTFilePath:0x7fbd42f31120:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3bd4b900; bundleID='org.cocoapods.AFDateHelper', path='<DVTFilePath:0x7fbd42f315c0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5c3290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd31c9f950; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd41596650>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.AFDateHelper', executablePath='<DVTFilePath:0x7fbd42f31120:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd3bd4b900; bundleID='org.cocoapods.AFDateHelper', path='<DVTFilePath:0x7fbd42f315c0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5c3290; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd46eeeb90; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a7a8060>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.AFDateHelper', executablePath='<DVTFilePath:0x7fbd42f31120:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~B9u5aB
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~B9u5aB' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.AFDateHelper]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fd4ed0; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x7fbd42ff8d50:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd2ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd5559cab0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd4a5d3d10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x7fbd31c85c20:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fd4ed0; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x7fbd42ff8d50:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd2ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd446b30e0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415913b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x7fbd31c85c20:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd37fd4ed0; bundleID='org.cocoapods.IQKeyboardManagerSwift', path='<DVTFilePath:0x7fbd42ff8d50:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd2ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b20d830; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a755c70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.IQKeyboardManagerSwift', executablePath='<DVTFilePath:0x7fbd31c85c20:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~xeoB1D
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~xeoB1D' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.IQKeyboardManagerSwift]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3b21e190; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x7fbd42f2ee40:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b244cc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a72a3c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x7fbd42f2e390:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3b21e190; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x7fbd42f2ee40:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b244cc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3bd2e200; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a7f3d30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x7fbd42f2e390:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd3b21e190; bundleID='org.cocoapods.KeychainAccess', path='<DVTFilePath:0x7fbd42f2ee40:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b244cc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3884d900; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a764ee0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.KeychainAccess', executablePath='<DVTFilePath:0x7fbd42f2e390:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~wOEX99
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~wOEX99' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.KeychainAccess]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3b4c07f0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fbd42f3a070:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd356a64b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a79cb50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fbd3a5f62a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd3b4c07f0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fbd42f3a070:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd356a64b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd450568b0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd55190e40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fbd3a5f62a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd3b4c07f0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fbd42f3a070:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd356a64b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b21c720; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd415d0c70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fbd3a5f62a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~alzjpA
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~alzjpA' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.MarqueeLabel]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fcb740; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fbd42ffa0a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd388e5c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a735e20>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fbd3b4cf450:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fcb740; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fbd42ffa0a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd388e5c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd46c1f530; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd534e9e10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fbd3b4cf450:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd37fcb740; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fbd42ffa0a0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd388e5c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3bd4d640; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd4156a850>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fbd3b4cf450:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~dpSipd
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~dpSipd' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.NotificationBannerSwift]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd7d2e17b0; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x7fbd31f84420:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd58f760c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a791230>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x7fbd38848650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd7d2e17b0; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x7fbd31f84420:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd58f760c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b21c720; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a783e90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x7fbd38848650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd7d2e17b0; bundleID='org.cocoapods.Reachability', path='<DVTFilePath:0x7fbd31f84420:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd58f760c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3b2f5470; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a781940>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.Reachability', executablePath='<DVTFilePath:0x7fbd38848650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~1O5Bur
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~1O5Bur' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Reachability]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd7eca0a80; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fbd352f1170:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd60417e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45cc80a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fbd3b237e00:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd7eca0a80; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fbd352f1170:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd60417e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3bd4d640; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd32a25900>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fbd3b237e00:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd7eca0a80; bundleID='org.cocoapods.SDWebImage', path='<DVTFilePath:0x7fbd352f1170:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd60417e30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd31c59890; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a7866b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImage', executablePath='<DVTFilePath:0x7fbd3b237e00:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~PwrImi
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~PwrImi' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework'
+2021-02-18 09:06:19 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SDWebImage]
+2021-02-18 09:06:19 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd438269c0; bundleID='org.cocoapods.SDWebImageSwiftUI', path='<DVTFilePath:0x7fbd352fc650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd53c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a79cb50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImageSwiftUI', executablePath='<DVTFilePath:0x7fbd446c11d0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:19 +0000  Entitlements for <IDEDistributionItem: 0x7fbd438269c0; bundleID='org.cocoapods.SDWebImageSwiftUI', path='<DVTFilePath:0x7fbd352fc650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd53c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3a53ca60; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a53cb10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImageSwiftUI', executablePath='<DVTFilePath:0x7fbd446c11d0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd438269c0; bundleID='org.cocoapods.SDWebImageSwiftUI', path='<DVTFilePath:0x7fbd352fc650:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd53c30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3a7548f0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a7be1c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SDWebImageSwiftUI', executablePath='<DVTFilePath:0x7fbd446c11d0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~Jc1Bq8
+2021-02-18 09:06:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~Jc1Bq8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'
+2021-02-18 09:06:20 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.SDWebImageSwiftUI]
+2021-02-18 09:06:20 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fd8490; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fbd555ebfc0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd49d90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a79cb50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fbd3bd50830:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>: {
+}
+2021-02-18 09:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fbd37fd8490; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fbd555ebfc0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd49d90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd58d31f00; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd58d31fb0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fbd3bd50830:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> are: {
+}
+2021-02-18 09:06:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd37fd8490; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fbd555ebfc0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3bd49d90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3bdc34c0; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd45c7bf70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='(null)', teamID='89QD58GUUL', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fbd3bd50830:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~C5Y3za
+2021-02-18 09:06:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~C5Y3za' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework'
+2021-02-18 09:06:20 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SnapKit]
+2021-02-18 09:06:20 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fbd366affe0; bundleID='com.tribe.TribeCoachApp', path='<DVTFilePath:0x7fbd31befd30:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5a73f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd388ef740; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a714060>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='{
+    "application-identifier" = "89QD58GUUL.com.tribe.TribeCoachApp";
+    "com.apple.developer.team-identifier" = 89QD58GUUL;
+    "get-task-allow" = 1;
+}', teamID='89QD58GUUL', identifier='com.tribe.TribeCoachApp', executablePath='<DVTFilePath:0x7fbd37f9d0f0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/TribeCoachApp'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "89QD58GUUL.com.tribe.TribeCoachApp";
+    "com.apple.developer.team-identifier" = 89QD58GUUL;
+    "get-task-allow" = 0;
+}
+2021-02-18 09:06:20 +0000  Entitlements for <IDEDistributionItem: 0x7fbd366affe0; bundleID='com.tribe.TribeCoachApp', path='<DVTFilePath:0x7fbd31befd30:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5a73f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd352f7b60; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd4a5eefe0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='{
+    "application-identifier" = "89QD58GUUL.com.tribe.TribeCoachApp";
+    "com.apple.developer.team-identifier" = 89QD58GUUL;
+    "get-task-allow" = 1;
+}', teamID='89QD58GUUL', identifier='com.tribe.TribeCoachApp', executablePath='<DVTFilePath:0x7fbd37f9d0f0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/TribeCoachApp'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "89QD58GUUL.com.tribe.TribeCoachApp";
+    "com.apple.developer.team-identifier" = 89QD58GUUL;
+    "get-task-allow" = 0;
+}
+2021-02-18 09:06:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbd366affe0; bundleID='com.tribe.TribeCoachApp', path='<DVTFilePath:0x7fbd31befd30:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fbd3b5a73f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fbd3bde0e60; name='Apple Development: Justin Marston (958J4WL576)', hash='1F3D5A1D923A0BB2357182C20BF0D5DB4474D58D', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fbd3a792b90>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-25 08:10:40 +0000''>', entitlements='{
+    "application-identifier" = "89QD58GUUL.com.tribe.TribeCoachApp";
+    "com.apple.developer.team-identifier" = 89QD58GUUL;
+    "get-task-allow" = 1;
+}', teamID='89QD58GUUL', identifier='com.tribe.TribeCoachApp', executablePath='<DVTFilePath:0x7fbd37f9d0f0:'/Users/shashank/Library/Developer/Xcode/Archives/2021-02-18/TribeCoachApp 18-02-21, 2.36 PM.xcarchive/Products/Applications/TribeCoachApp.app/TribeCoachApp'>', hardenedRuntime='0'>'> to: /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~4qU32O
+2021-02-18 09:06:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'ECDB6080D1D198EAC1D96B48E96450D9A5B69584' '--entitlements' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/entitlements~~~4qU32O' '--preserve-metadata=identifier,flags,runtime' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app'
+2021-02-18 09:06:20 +0000  /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app: signed app bundle with Mach-O thin (arm64) [com.tribe.TribeCoachApp]
+2021-02-18 09:06:20 +0000  /usr/bin/codesign exited with 0
+2021-02-18 09:06:20 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-02-18 09:06:20 +0000  Processing step: IDEDistributionCreateIPAStep
+2021-02-18 09:06:20 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root' '/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Packages/TribeCoachApp.ipa'
+2021-02-18 09:06:20 +0000  >>> Copying /var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root 
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  12965 bytes for ./Payload/TribeCoachApp.app/_CodeSignature/CodeResources
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/TribeCoachApp.momd/TribeCoachApp.mom ... 
+2021-02-18 09:06:20 +0000  513 bytes for ./Payload/TribeCoachApp.app/TribeCoachApp.momd/TribeCoachApp.mom
+copying file ./Payload/TribeCoachApp.app/TribeCoachApp.momd/VersionInfo.plist ... 
+2021-02-18 09:06:20 +0000  163 bytes for ./Payload/TribeCoachApp.app/TribeCoachApp.momd/VersionInfo.plist
+copying file ./Payload/TribeCoachApp.app/TribeCoachApp.momd/TribeCoachApp.omo ... 
+704 bytes for ./Payload/TribeCoachApp.app/TribeCoachApp.momd/TribeCoachApp.omo
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/click3.wav ... 
+2021-02-18 09:06:20 +0000  15240 bytes for ./Payload/TribeCoachApp.app/click3.wav
+copying file ./Payload/TribeCoachApp.app/click1.wav ... 
+2021-02-18 09:06:20 +0000  16596 bytes for ./Payload/TribeCoachApp.app/click1.wav
+copying file ./Payload/TribeCoachApp.app/click4.wav ... 
+2021-02-18 09:06:20 +0000  6488 bytes for ./Payload/TribeCoachApp.app/click4.wav
+copying file ./Payload/TribeCoachApp.app/TribeCoachApp ... 
+2021-02-18 09:06:20 +0000  4175264 bytes for ./Payload/TribeCoachApp.app/TribeCoachApp
+copying file ./Payload/TribeCoachApp.app/switch1.wav ... 
+2021-02-18 09:06:20 +0000  55556 bytes for ./Payload/TribeCoachApp.app/switch1.wav
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2015 bytes for ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-02-18 09:06:20 +0000  896 bytes for ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-02-18 09:06:20 +0000  258 bytes for ./Payload/TribeCoachApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/TribeCoachApp.app/Avenir.ttc ... 
+2021-02-18 09:06:20 +0000  1639536 bytes for ./Payload/TribeCoachApp.app/Avenir.ttc
+copying file ./Payload/TribeCoachApp.app/Assets.car ... 
+2021-02-18 09:06:20 +0000  484560 bytes for ./Payload/TribeCoachApp.app/Assets.car
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel ... 
+2021-02-18 09:06:20 +0000  314896 bytes for ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/MarqueeLabel
+copying file ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  744 bytes for ./Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability ... 
+2021-02-18 09:06:20 +0000  197840 bytes for ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Reachability
+copying file ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  744 bytes for ./Payload/TribeCoachApp.app/Frameworks/Reachability.framework/Info.plist
+2021-02-18 09:06:20 +0000  copying file ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper ... 
+2021-02-18 09:06:20 +0000  215264 bytes for ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/AFDateHelper
+copying file ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  744 bytes for ./Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess ... 
+2021-02-18 09:06:20 +0000  454720 bytes for ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/KeychainAccess
+copying file ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  748 bytes for ./Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift ... 
+2021-02-18 09:06:20 +0000  517248 bytes for ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift
+copying file ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  769 bytes for ./Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI ... 
+2021-02-18 09:06:20 +0000  612336 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/SDWebImageSwiftUI
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  804 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift ... 
+2021-02-18 09:06:20 +0000  908816 bytes for ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/IQKeyboardManagerSwift
+copying file ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  766 bytes for ./Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit ... 
+2021-02-18 09:06:20 +0000  414176 bytes for ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/SnapKit
+copying file ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  735 bytes for ./Payload/TribeCoachApp.app/Frameworks/SnapKit.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources ... 
+2021-02-18 09:06:20 +0000  1798 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage ... 
+2021-02-18 09:06:20 +0000  940752 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/SDWebImage
+copying file ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/Info.plist ... 
+2021-02-18 09:06:20 +0000  741 bytes for ./Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework/Info.plist
+copying file ./Payload/TribeCoachApp.app/embedded.mobileprovision ... 
+2021-02-18 09:06:20 +0000  8523 bytes for ./Payload/TribeCoachApp.app/embedded.mobileprovision
+copying file ./Payload/TribeCoachApp.app/Info.plist ... 
+2021-02-18 09:06:20 +0000  1952 bytes for ./Payload/TribeCoachApp.app/Info.plist
+copying file ./Payload/TribeCoachApp.app/PkgInfo ... 
+8 bytes for ./Payload/TribeCoachApp.app/PkgInfo
+2021-02-18 09:06:20 +0000  /usr/bin/ditto exited with 0
+2021-02-18 09:06:20 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-02-18 09:06:20 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-02-18 09:06:20 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd55596650:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/NotificationBannerSwift.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd555fcce0:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/KeychainAccess.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd555d2220:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/AFDateHelper.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd3bd195d0:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImage.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd555b8750:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/Reachability.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd5559c7f0:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SnapKit.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd4a5fadd0:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/SDWebImageSwiftUI.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd3526e1c0:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/MarqueeLabel.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd55572890:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app/Frameworks/IQKeyboardManagerSwift.framework'>
+2021-02-18 09:06:20 +0000  IDEDistributionItem init <DVTFilePath:0x7fbd55576a30:'/var/folders/pv/58xtvz296t13vwy8r_qctqt40000gn/T/XcodeDistPipeline.~~~ZYAJRR/Root/Payload/TribeCoachApp.app'>
+2021-02-18 09:06:20 +0000  Processing step: IDEDistributionCreateManifestStep

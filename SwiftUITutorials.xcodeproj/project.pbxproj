@@ -20,6 +20,7 @@
 		983D6E8F25DC1F2D001F016F /* RedactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6E8C25DC1F2D001F016F /* RedactedView.swift */; };
 		983D6E9025DC1F2D001F016F /* CircularPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6E8D25DC1F2D001F016F /* CircularPlane.swift */; };
 		98E282CC25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */; };
+		98E282D125DE603A00FFDDA2 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E282D025DE603A00FFDDA2 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		983D6E8C25DC1F2D001F016F /* RedactedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedactedView.swift; sourceTree = "<group>"; };
 		983D6E8D25DC1F2D001F016F /* CircularPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularPlane.swift; sourceTree = "<group>"; };
 		98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryAnimationView.swift; sourceTree = "<group>"; };
+		98E282D025DE603A00FFDDA2 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				983D6E8C25DC1F2D001F016F /* RedactedView.swift */,
 				983D6E8D25DC1F2D001F016F /* CircularPlane.swift */,
 				98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */,
+				98E282D025DE603A00FFDDA2 /* CustomSlider.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983D6E5525DC1F17001F016F /* AppDelegate.swift in Sources */,
+				98E282D125DE603A00FFDDA2 /* CustomSlider.swift in Sources */,
 				983D6E5725DC1F17001F016F /* SceneDelegate.swift in Sources */,
 				98E282CC25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift in Sources */,
 				983D6E8E25DC1F2D001F016F /* Home.swift in Sources */,
