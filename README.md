@@ -3,7 +3,7 @@
 2. Redacted View
 3. MatchedGeometry Animation
 
-![Plane.gif](https://github.com/ShashankSingla/SwiftUITutorials/blob/master/2021-02-16%2021.22.27.gif)
+![Plane.gif](Gifs/Plane.gif)
 
 ![Redacted.gif](https://github.com/ShashankSingla/SwiftUITutorials/blob/master/2021-02-16%2021.22.55.gif)
 
