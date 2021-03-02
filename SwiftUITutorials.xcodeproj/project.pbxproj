@@ -19,6 +19,11 @@
 		983D6E8E25DC1F2D001F016F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6E8B25DC1F2D001F016F /* Home.swift */; };
 		983D6E8F25DC1F2D001F016F /* RedactedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6E8C25DC1F2D001F016F /* RedactedView.swift */; };
 		983D6E9025DC1F2D001F016F /* CircularPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983D6E8D25DC1F2D001F016F /* CircularPlane.swift */; };
+		9866031C25E7C7F3001407F3 /* ScrollAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866031B25E7C7F3001407F3 /* ScrollAnimation.swift */; };
+		9866032225E7C832001407F3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866032025E7C832001407F3 /* DetailView.swift */; };
+		9866032325E7C832001407F3 /* VerticalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9866032125E7C832001407F3 /* VerticalScrollView.swift */; };
+		9883131025EE33DE005C6C82 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883130F25EE33DE005C6C82 /* CustomAlert.swift */; };
+		9883131525EE3410005C6C82 /* SSAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883131425EE3410005C6C82 /* SSAlert.swift */; };
 		98E282CC25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */; };
 		98E282D125DE603A00FFDDA2 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E282D025DE603A00FFDDA2 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +64,11 @@
 		983D6E8B25DC1F2D001F016F /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		983D6E8C25DC1F2D001F016F /* RedactedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedactedView.swift; sourceTree = "<group>"; };
 		983D6E8D25DC1F2D001F016F /* CircularPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularPlane.swift; sourceTree = "<group>"; };
+		9866031B25E7C7F3001407F3 /* ScrollAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAnimation.swift; sourceTree = "<group>"; };
+		9866032025E7C832001407F3 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9866032125E7C832001407F3 /* VerticalScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalScrollView.swift; sourceTree = "<group>"; };
+		9883130F25EE33DE005C6C82 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		9883131425EE3410005C6C82 /* SSAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SSAlert.swift; path = ../../Desktop/SSAlert/SSAlert/View/SSAlert.swift; sourceTree = "<group>"; };
 		98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryAnimationView.swift; sourceTree = "<group>"; };
 		98E282D025DE603A00FFDDA2 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +121,7 @@
 		983D6E5325DC1F17001F016F /* SwiftUITutorials */ = {
 			isa = PBXGroup;
 			children = (
+				9883131425EE3410005C6C82 /* SSAlert.swift */,
 				983D6E8A25DC1F2D001F016F /* Views */,
 				983D6E5425DC1F17001F016F /* AppDelegate.swift */,
 				983D6E5625DC1F17001F016F /* SceneDelegate.swift */,
@@ -153,11 +164,15 @@
 		983D6E8A25DC1F2D001F016F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9866032025E7C832001407F3 /* DetailView.swift */,
+				9866031B25E7C7F3001407F3 /* ScrollAnimation.swift */,
+				9866032125E7C832001407F3 /* VerticalScrollView.swift */,
 				983D6E8B25DC1F2D001F016F /* Home.swift */,
 				983D6E8C25DC1F2D001F016F /* RedactedView.swift */,
 				983D6E8D25DC1F2D001F016F /* CircularPlane.swift */,
 				98E282CB25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift */,
 				98E282D025DE603A00FFDDA2 /* CustomSlider.swift */,
+				9883130F25EE33DE005C6C82 /* CustomAlert.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -293,12 +308,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				983D6E5525DC1F17001F016F /* AppDelegate.swift in Sources */,
+				9866031C25E7C7F3001407F3 /* ScrollAnimation.swift in Sources */,
 				98E282D125DE603A00FFDDA2 /* CustomSlider.swift in Sources */,
+				9866032325E7C832001407F3 /* VerticalScrollView.swift in Sources */,
+				9883131525EE3410005C6C82 /* SSAlert.swift in Sources */,
 				983D6E5725DC1F17001F016F /* SceneDelegate.swift in Sources */,
 				98E282CC25DD6B8A00FFDDA2 /* MatchedGeometryAnimationView.swift in Sources */,
+				9866032225E7C832001407F3 /* DetailView.swift in Sources */,
 				983D6E8E25DC1F2D001F016F /* Home.swift in Sources */,
 				983D6E5925DC1F17001F016F /* ContentView.swift in Sources */,
 				983D6E8F25DC1F2D001F016F /* RedactedView.swift in Sources */,
+				9883131025EE33DE005C6C82 /* CustomAlert.swift in Sources */,
 				983D6E5C25DC1F17001F016F /* SwiftUITutorials.xcdatamodeld in Sources */,
 				983D6E9025DC1F2D001F016F /* CircularPlane.swift in Sources */,
 			);
